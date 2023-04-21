@@ -1,0 +1,19 @@
+{
+  "name": "talk-to-heal",
+  "version": "1.0.0",
+  "description": "online mental doctor using chatgpt api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TommyTroll123/talk-to-heal.git"
+  },
+  "author": "Kanggeon Oh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TommyTroll123/talk-to-heal/issues"
+  },
+  "homepage": "https://github.com/TommyTroll123/talk-to-heal#readme"
+}
