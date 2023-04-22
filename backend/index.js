@@ -1,4 +1,4 @@
-const { Configuration, OpenAIApi } = require("openai);
+const { Configuration, OpenAIApi } = require("openai");
 const apiKey = "";
 const configuration = new Configuration({
   apiKey: apiKey,
