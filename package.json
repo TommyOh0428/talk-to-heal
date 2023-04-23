@@ -2,7 +2,7 @@
   "name": "talk-to-heal",
   "version": "1.0.0",
   "type": "module",
-  "description": "online mental doctor using chatgpt api",
+  "description": "online psychological doctor using chatgpt api",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
