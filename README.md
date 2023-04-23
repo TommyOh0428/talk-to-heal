@@ -2,8 +2,11 @@
 A private psychological counsellor using Chat GPT api.
 
 This program has made by Tommy (Kanggeon) Oh.
+
 This project will use chat GPT 3.5 turbo mode.
+
 The service model may be changed depends on the price that is offered by Open AI.
+
 Currently support English, may continue to service with Korean.
 
 What inspired me to work
