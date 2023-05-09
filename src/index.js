@@ -34,6 +34,28 @@ app.post('/mentalDoctor', async function(req, res) {
   while (userMessages != 0 || assistantMessages != 0) {
     
   }
+
+  const maxRetries = 3;
+  let retries = 0;
+  let completion;
+
+  //fetching data from Open AI api
+  //using try catch block, check if there is an error occurred.
+  //if there is, it starts to retries and increment the retries
+  //if the retries is bigger than maxRetries which is 3, the block will terminate
+  while (retries < maxRetries) {
+    try {
+      completion = await openai.createChatCompletion({
+        model: "gpt-3.5-turbo",
+        messages: message,
+      });
+      break;
+    } catch (error) {
+      retries++;
+      console.log(error);
+      console.log (`Error occurred while fetching data, retrying (${retries}/${maxRetries})...`);
+    }
+  }
 })
 
 async function apiCall () {
